@@ -10,7 +10,7 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-app.use(cors({ credentials: true, origin: "http://localhost:3000" })); // Allow frontend access
+app.use(cors({ credentials: true, origin: "https://social.netlify.app" })); // Allow frontend access
 app.use(cookieParser());
 
 // Connect to MongoDB
